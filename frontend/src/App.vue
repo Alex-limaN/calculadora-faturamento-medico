@@ -93,7 +93,7 @@ const resultado = ref(null)
 
 const enviarCalculo = async () => {
   try {
-    const response = await axios.post('http://127.0.0.1:8000/api/calcular/', formulario.value)
+    const response = await axios.post('https://calculadora-faturamento-medico.onrender.com/api/calcular/', formulario.value)
     resultado.value = response.data.valor_final
   } catch (error) {
     alert("Erro ao realizar o cálculo. Verifique os dados inseridos.")

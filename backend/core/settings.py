@@ -25,7 +25,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # BUSCA O DEBUG (Com padrão True se não achar no .env)
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['*'] # Depois você colocará o domínio real aqui
+ALLOWED_HOSTS = ['https://calculadora-faturamento-medico.vercel.app/'] # Depois você colocará o domínio real aqui
 
 
 # Definição de aplicativo
