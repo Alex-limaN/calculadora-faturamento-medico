@@ -166,7 +166,7 @@ input {
   padding: 10px;
   border: 1px solid #d1e3f8;
   border-radius: 6px;
-  background-color: #fafcfe;
+  background-color: #85baf0;
 }
 
 input:focus {
